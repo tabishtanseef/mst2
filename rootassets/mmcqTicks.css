@@ -1,0 +1,47 @@
+/* MCQ for ticks buttons */
+
+label {	
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 32%, #ffffff 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(32%, #ffffff), color-stop(100%, #ffffff));
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 32%, #ffffff 100%);
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 32%, #ffffff 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 32%, #ffffff 100%);
+    background: radial-gradient(ellipse at center, #ffffff 32%, #ffffff 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+    
+    
+    border:2px solid #FFE500;
+    border-radius: 6px;
+    display: inline-block;
+    height: 14px;
+    padding: 2px;
+    position: relative;
+    top: 6px;
+    width: 14px;
+	cursor: pointer;
+}
+
+label > input[type="checkbox"] {
+    cursor: pointer;
+    display: block;
+    margin: -1px;
+    opacity: 0;
+    position: absolute;
+    z-index: 666;
+	cursor: pointer;
+}
+label > input[type="checkbox"] + span {    
+    display: inline-block;
+    height: 12px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 13px;
+	cursor: pointer;	
+}
+
+label > input[type="checkbox"]:checked + span {
+	background-image: url("../rootassets/chk_2.png");	
+    background-repeat: no-repeat;
+}

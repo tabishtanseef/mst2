@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "ITCAvantGardeStd-Bk";
+    src: url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.eot");
+    src: url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.eot?#iefix") format("embedded-opentype"),
+    url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.woff2") format("woff2"),
+    url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.woff") format("woff"),
+    url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.ttf") format("truetype"),
+    url("ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk") format("svg");	
+}   
+@font-face {
+	font-family: "ITCAvantGardeStd-Bold";
+    src: url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.eot");
+    src: url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.eot?#iefix") format("embedded-opentype"),
+    url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.woff2") format("woff2"),
+    url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.woff") format("woff"),
+    url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.ttf") format("truetype"),
+    url("ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold") format("svg");
+}
+@font-face {
+	font-family: "ITCAvantGardeStd-Md";
+    src: url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.eot");
+    src: url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.eot?#iefix") format("embedded-opentype"),
+    url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.woff2") format("woff2"),
+    url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.woff") format("woff"),
+    url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.ttf") format("truetype"),
+    url("ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md") format("svg");
+}
+@font-face {
+	font-family: "TektonPro-Bold";
+    src: url("TektonPro-Bold/TektonPro-Bold.eot");
+    src: url("TektonPro-Bold/TektonPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("TektonPro-Bold/TektonPro-Bold.woff2") format("woff2"),
+    url("TektonPro-Bold/TektonPro-Bold.woff") format("woff"),
+    url("TektonPro-Bold/TektonPro-Bold.ttf") format("truetype"),
+    url("TektonPro-Bold/TektonPro-Bold.svg#TektonPro-Bold") format("svg");
+}
+@font-face {
+	font-family: "VAGRoundedStd-Black";
+    src: url("VAGRoundedStd-Black/VAGRoundedStd-Black.eot");
+    src: url("VAGRoundedStd-Black/VAGRoundedStd-Black.eot?#iefix") format("embedded-opentype"),
+    url("VAGRoundedStd-Black/VAGRoundedStd-Black.woff2") format("woff2"),
+    url("VAGRoundedStd-Black/VAGRoundedStd-Black.woff") format("woff"),
+    url("VAGRoundedStd-Black/VAGRoundedStd-Black.ttf") format("truetype"),
+    url("VAGRoundedStd-Black/VAGRoundedStd-Black.svg#VAGRoundedStd-Black") format("svg");
+}
+

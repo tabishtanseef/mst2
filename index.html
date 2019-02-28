@@ -1,0 +1,135 @@
+  <!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Activity-1 ch-4</title>
+	  <link href='rootassets/common.css' rel='stylesheet' type='text/css' />	 
+ 	  <link href='rootassets/mcqTicks.css' rel='stylesheet' type='text/css' />
+      <link href='css/style.css' rel='stylesheet' type='text/css' /> 
+	  <link href="fonts/fonts.css" rel="stylesheet" type='text/css' />	  
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+      <script type="text/javascript" src="rootassets/jquery-1.10.2.js"></script>
+      <script type="text/javascript" src="rootassets/UI_files_ga.js"></script>
+      <script type="text/javascript" src="rootassets/UI_files_jquery-ui.min.js"></script>
+	   <script type="text/javascript" src="build/mediaelement-and-player.min.js"></script>
+      <script type="text/javascript" src="rootassets/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+   </head>
+   <body style="display:none;">
+      <div id='main' class="noselect">
+         <div id="headerL1">
+            <!-- <div id="unitT">Activity-1 ch-6</div>	 -->	
+              
+         </div> <!-- / div header -->
+		 
+     <div id='container'>
+	 <iframe src="audio/dragaudio.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+<audio id="audio" allow="autoplay" src="rootassets/well-done.mp3" autostart="false" ></audio>
+             <audio id="audio1" allow="autoplay" src="rootassets/try-again.mp3" autostart="false" ></audio>
+	   <div id="dis"></div>
+		<div id='textContent'>	
+		   <div id="itext">Drag the correct names of animals.  Match the animals with their homes.</div>
+		   <div id="img_box">
+		      <img id="img01" src="img/a2.png"/>
+		   </div>
+         <div class="divTable" id="questions1">
+					<div class="divRow opts">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops0" num="0" data-ids="-1"></span></div></div>
+					</div>
+					<div class="divRow opts">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops1" num="1" data-ids="-1"></span></div></div>
+					</div>	
+					<div class="divRow opts1">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops2" num="2" data-ids="-1"></span></div></div>
+					</div>
+					<div class="divRow opts2">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops3" num="3" data-ids="-1"></span></div></div>
+					</div>
+					<div class="divRow opts3">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops4" num="4" data-ids="-1"></span></div></div>
+					</div>
+					<div class="divRow">
+						<div class="divCell"><div class="bgd"><span class="droppable dropp" id="drops5" num="5" data-ids="-1"></span></div></div>
+					</div>
+										
+		   </div>
+			 
+		    <div id="dragBox" class="droppable" data-ids="-1">
+				<div id="drags0" data-id="0" dro="" drag="false" class="draggable hove drr"><span class="">CAT <img id="wrong0" class="r_w w" src="rootassets/wrng.png" /><img id="right0" class="r_w r" src="rootassets/chk.png" /></span></div>
+				<div id="drags1" data-id="1" dro="" drag="false" class="draggable hove drr"><span class="">ELEPHANT <img id="wrong1" class="r_w w" src="rootassets/wrng.png" /><img id="right1" class="r_w r" src="rootassets/chk.png" /></span></div>
+				<div id="drags2" data-id="2" dro="" drag="false" class="draggable hove drr"><span class="">GOAT <img id="wrong2" class="r_w w" src="rootassets/wrng.png" /><img id="right2" class="r_w r" src="rootassets/chk.png" /></span></div>
+				<div id="drags3" data-id="3" dro="" drag="false" class="draggable hove drr"><span class="">MONKEY <img id="wrong3" class="r_w w" src="rootassets/wrng.png" /><img id="right3" class="r_w r" src="rootassets/chk.png" /></span></div>
+				<div id="drags4" data-id="4" dro="" drag="false" class="draggable hove drr"><span class="">DONKEY <img id="wrong4" class="r_w w" src="rootassets/wrng.png" /><img id="right4" class="r_w r" src="rootassets/chk.png" /></span></div>
+				<div id="drags5" data-id="5" dro="" drag="false" class="draggable hove drr"><span class="">CAMEL <img id="wrong5" class="r_w w" src="rootassets/wrng.png" /><img id="right5" class="r_w r" src="rootassets/chk.png" /></span></div>
+		   </div>
+		   
+<div class="pointbox">			
+<div class="left">	
+	<div class="box" id="l1" val='1' ans=""></div>
+	<div class="box" id="l2" val='2' ans=""></div>
+	<div class="box" id="l3" val='3' ans=""></div>
+	<div class="box" id="l4" val='4' ans=""></div>
+	<div class="box dd1" id="l5" val='5' ans=""></div>
+	<div class="box" id="l6" val='6' ans=""></div>
+</div>
+
+<div class="right">
+	
+<div class="box" id="r1" val='1'></div>
+<div class="box" id="r2" val='2'></div>
+<div class="box" id="r3" val='3'></div>
+<div class="box" id="r4" val='4'></div>
+<div class="box dd1" id="r5" val='5'></div>
+<div class="box" id="r6" val='6'></div>
+</div>
+ </div> 
+		   <div class="divTable" id="questions3">
+					<div class="divRow opts">
+					    <div class="divCell question_num1">(a).</div>
+						<div class="divCell">Jungle </div>
+						<div class="divCell"><span><img id="wrongg0" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt0" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+					<div class="divRow opts">
+					    <div class="divCell question_num1">(b).</div>
+						<div class="divCell">Cage</div>
+						<div class="divCell"><span><img id="wrongg1" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt1" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+					<div class="divRow opts">
+					    <div class="divCell question_num1">(c).</div>
+						<div class="divCell">Tree</div>
+						<div class="divCell"><span><img id="wrongg2" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt2" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+					<div class="divRow opts1">
+					    <div class="divCell question_num1">(d).</div>
+						<div class="divCell">Pen</div>
+						<div class="divCell"><span><img id="wrongg3" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt3" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+					<div class="divRow opts2">
+					    <div class="divCell question_num1">(e).</div>
+						<div class="divCell">Desert</div>
+						<div class="divCell"><span><img id="wrongg4" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt4" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+					<div class="divRow">
+					    <div class="divCell question_num1">(f).</div>
+						<div class="divCell">Stable</div>
+						<div class="divCell"><span><img id="wrongg5" class="r_w1 w" src="rootassets/wrng.png" /><img id="rightt5" class="r_w1 r" src="rootassets/chk.png" /></span></div>
+					</div>
+			</div>
+		   
+	   </div><!-- / div textContent -->	   
+	</div><!-- / div container -->
+	
+          <div id="footer">
+            <div id="nav">
+               <div id="score"><img src="rootassets/Welldone.gif" /></div>           
+               <button id="check_ans" class="btn_d" onclick="app.CheckFun();"><span>SUBMIT</span></button>
+               <button id="see_ans" class="btn_d" onclick="app.SeeFun();"><span>SOLUTION</span></button>
+               <button id="reset" class="btn_d" onclick="app.ResetFun();"><span>RESET</span></button>			   
+            </div> 			
+         </div>	<!-- / div footer -->		 
+      </div><!-- / div main -->
+	  
+   </body>
+</html>
